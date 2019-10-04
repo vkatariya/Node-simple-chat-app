@@ -1,0 +1,14 @@
+{
+  "name": "dchat",
+  "version": "1.0.0",
+  "description": "test chat",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}

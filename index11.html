@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<script>
+  var sock= new WebSocket("ws://localhost:5001");
+  sock.onopen = function(event){
+    alert('socket connected Successfully');
+    setTimeout(function(){sock.send("hey there")},1000);
+  };
+  sock.onmessage = function(event)
+  {
+    console.log(event);
+  }
+</script>
+</body>
+</html>
